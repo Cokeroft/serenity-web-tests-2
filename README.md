@@ -28,8 +28,8 @@ This project targets the Django REST Framework + Angular implementation of RealW
 
 ```bash
 # 1) Clone the tests
-git clone https://github.com/Cokeroft/serenity-web-tests.git
-cd serenity-web-tests
+git clone https://github.com/Cokeroft/serenity-web-tests-2.git
+cd serenity-web-tests-2
 
 # 2) Start the app under test (in another terminal)
 #    See "Running the System Under Test (Docker)" below.
@@ -70,7 +70,7 @@ Once running, the Angular app is available at `http://localhost:4200` by default
 Your command (works with any tag you want):
 
 ```bash
-mvn clean verify -Dcucumber.filter.tags="@kraken"
+mvn clean verify "-Dcucumber.filter.tags=@prophetx"
 ```
 
 More examples:
